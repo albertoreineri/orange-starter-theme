@@ -13,7 +13,7 @@ A starter theme called Orange Starter Theme .
 
 == Description ==
 
-Description
+Simple and fast WordPress starter theme with bootstrap, fontawesome and back on top included
 
 == Installation ==
 

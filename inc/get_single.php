@@ -22,6 +22,19 @@
     <?php the_content(); ?>
     <!-- /Contenuto -->
 
+    <!-- Tags -->
+    <div class="tags">
+        <?php
+        $posttags = get_the_tags();
+        if ($posttags) {
+            foreach ($posttags as $tag) {
+                echo $tag->name . ' ';
+            }
+        }
+        ?>
+    </div>
+    <!-- /Tags -->
+
     <!-- Commenti -->
     <?php comments_template(); ?>
     <!-- /Commenti -->

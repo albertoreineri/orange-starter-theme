@@ -27,8 +27,8 @@ function orange_starter_theme_setup() {
 	
 	// Menus
 	register_nav_menus(array(
-		'primary' => __( 'Primary Menu'),
-		'footer' => __( 'Footer Menu'),
+		'primary' => __( 'Primary Menu','orange-starter-theme'),
+		'footer' => __( 'Footer Menu','orange-starter-theme'),
 	));
 	
 	// Aggiungo dimensioni immagini custom

@@ -1,0 +1,196 @@
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #f3a32c
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------
+                    Header
+------------------------------------------------------------*/
+header {
+    border-bottom: 1px solid #000;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #f3a32c;
+}
+
+/*----------------------------------------------------------
+                    Widget
+------------------------------------------------------------*/
+.widget-title {
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+.widget-item ul {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.widget-item ul li {
+    margin-bottom: 5px;
+}
+
+/*----------------------------------------------------------
+                    Contenuto
+------------------------------------------------------------*/
+.excerpt a {
+    color: inherit;
+}
+
+/*----------------------------------------------------------
+                    Button to top
+------------------------------------------------------------*/
+#button {
+    display: inline-block;
+    background-color: transparent;
+    color: #f3a32c;
+    width: 50px;
+    height: 37px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    font-size: 26px;
+}
+
+#button::after {
+    font-size: 3em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #000000;
+}
+
+#button:active {
+    background-color: #000000;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*----------------------------------------------------------
+                    Ricerca
+------------------------------------------------------------*/
+.btn-cerca {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border: 1px solid #6c757d
+}
+
+/*-------------------------------
+Commenti
+--------------------------------*/
+.comment-list {
+    list-style-type: none;
+}
+
+.comments-area {
+    font-size: 80%;
+    border-top: 1px solid rgb(165, 165, 165);
+    margin-top: 25px;
+}
+
+.comment-meta {
+    padding: 20px 0;
+}
+
+
+.comment-form label {
+    display: block;
+    margin-bottom: 0px;
+}
+
+.comment-form input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(207, 207, 207);
+
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.comment-form-cookies-consent input {
+    width: auto;
+}
+
+.comment-form-cookies-consent label {
+    display: inline;
+    padding-left: 10px;
+}
+
+.comment-form input {
+    width: auto;
+}
+
+.comment-respond {
+    padding-top: 25px;
+}
+
+/*----------------------------------------------------------
+                    Numeri di pagina
+------------------------------------------------------------*/
+
+.pagination {
+    margin-top: 25px;
+}
+
+.page-numbers {
+    padding-left: 5px;
+}
+
+/*----------------------------------------------------------
+                    Footer
+------------------------------------------------------------*/
+
+footer {
+    border-top: 1px solid #000;
+}
+
+
+/*----------------------------------------------------------
+                    Media queries
+------------------------------------------------------------*/
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .widget-item {
+        text-align: center;
+    }
+
+    .widget-item .widget-title {
+        margin-top: 15px;
+    }
+}

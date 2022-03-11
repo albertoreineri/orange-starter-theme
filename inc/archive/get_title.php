@@ -1,6 +1,5 @@
 <?php 
 
-/* Scrivo il titolo giusto */
 if (is_category()) {
     single_cat_title();
 } elseif (is_tag()) {
@@ -18,5 +17,3 @@ if (is_category()) {
 } else {
     echo 'Archivio:';
 }
-
-?>

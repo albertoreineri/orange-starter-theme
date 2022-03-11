@@ -1,43 +1,29 @@
-<?php
-get_header();
-?>
+<?php get_header(); ?>
+<div class="container mt-5">
+	<div class="row">
+		<div class="col-lg-9">
+			<?php
+			if (have_posts()) :
+			?>
+				<h1 class="archive-page-title pb-2"><?php get_template_part('inc/archive/get_title'); ?></h1>
 
-<?php
-if (have_posts()) :
-	?>
+				<?php
+				while (have_posts()) : the_post();
+					get_template_part('inc/archive/get_article');
+				endwhile;
+				?>
 
-<!-- Titolo pagina -->
-<h1 class="pb-2">
-	<?php get_template_part('inc/get_page_title'); ?>
-</h1>
-<!-- /Titolo pagina -->
+				<div class="pagination"><?php echo paginate_links(); ?></div>
+			<?php
+			else :
+				echo '<p>Nessun articolo trovato...</p>';
+			endif;
+			?>
+		</div>
 
-<!-- Contenuto pagina -->
-<?php
-	//Loop tra i post
-	while (have_posts()) : the_post();
-		?>
-
-<?php get_template_part('inc/get_article_in_list'); ?>
-
-<?php
-	endwhile;
-	?>
-
-<!-- Numeri pagina -->
-<div class="pagination">
-	<?php echo paginate_links();?>
+		<div class="col-lg-3">
+			<?php get_sidebar(); ?>
+		</div>
+	</div>
 </div>
-<!-- /Numeri pagina -->
-
-<?php
-else :
-	echo '<p>Nessun articolo...</p>';
-
-endif;
-?>
-<!-- /Contenuto pagina -->
-
-<?php
-get_footer();
-?>
+<?php get_footer(); ?>

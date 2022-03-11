@@ -5,7 +5,7 @@
         <div class="col-12">
 
             <div class="text-center">
-                <h1 class="mb-3">Orange Starter Theme <span style="font-size:50%;font-weight:normal;color:#f3a32c">di <a href="http://albertoreineri.it" target="_blank">Alberto Reineri</a></span></h1>
+                <h1 class="mb-3">Orange Starter Theme <span style="font-size:50%;font-weight:normal;color:#f3a32c">di <a href="http://albertoreineri.it" target="_blank">Alby DEV</a></span></h1>
                 <p>
                     <b>Complimenti!!!</b> Hai installato Orange Starter Theme!!!
                 </p>

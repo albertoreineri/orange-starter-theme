@@ -1,6 +1,6 @@
 === Orange Starter Theme ===
 
-Contributors: Alberto Reineri
+Contributors: Alby DEV
 Tags: starter-theme, back-on-top, button-to-top, bootstrap, font-awesome, easy, fast, mobile
 
 Requires at least: 5.9

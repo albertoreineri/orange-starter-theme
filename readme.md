@@ -1,19 +1,18 @@
 # Orange Starter Theme 
 
-Contributors: Alberto Reineri
-Tags: starter-theme, back-on-top, button-to-top, bootstrap, font-awesome, easy, fast, mobile
+A starter theme for WordPress Developers.
+
+**Tags:** starter-theme, back-on-top, button-to-top, bootstrap, font-awesome, easy, fast, mobile
 
 Requires at least: 5.9
 Tested up to: 5.9.2
 Stable tag: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-
-A starter theme for WordPress Developers.
+License: GNU General Public License v3 or later
+License URI: [LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt)
 
 # Description
 
-Simple and fast WordPress starter theme with bootstrap and fontawesome 
+Simple WordPress Starter Theme with Bootstrap and Fontawesome.
 
 # Installation
 

@@ -1,6 +1,6 @@
-=== Orange Starter Theme ===
+# Orange Starter Theme 
 
-Contributors: Alby DEV
+Contributors: Alberto Reineri
 Tags: starter-theme, back-on-top, button-to-top, bootstrap, font-awesome, easy, fast, mobile
 
 Requires at least: 5.9
@@ -9,28 +9,28 @@ Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
-A starter theme called Orange Starter Theme .
+A starter theme for WordPress Developers.
 
-== Description ==
+# Description
 
 Simple and fast WordPress starter theme with bootstrap and fontawesome 
 
-== Installation ==
+# Installation
 
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
 2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
-== Changelog ==
+# Changelog
 
-= 1.0 - Aug 13 2019 =
+**1.0 - Aug 13 2019**
 * Initial release
 
-= 1.0 - Mar 11 2022 =
+**1.0 - Mar 11 2022**
 * Bootstrap 5 + Minor fixies
 
-== Credits ==
+# Credits
 
-* Created by http://albydev.net 
-* Bootstrap Framework http://getbootstrap.com
-* FontAwesome http://fontawesome.com
+* Created by https://albertoreineri.it 
+* Bootstrap Framework https://getbootstrap.com
+* FontAwesome https://fontawesome.com
